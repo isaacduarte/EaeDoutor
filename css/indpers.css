@@ -1,0 +1,78 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.div_flutuante{
+ 
+    /*Margem zero de todos os lados*/
+    margin: 0;
+ 
+    /* É para ser mostrada*/
+    display:block;
+ 
+    /* Posição é fixa*/
+    position:fixed;
+ 
+    /* Tamanho da div*/
+    width:100px;
+ 
+    /* Largura da div*/
+    height:40px;
+ 
+    /* Quantos pixels do rodape do navegador*/
+    bottom: 2px;
+ 
+    /* Quantos pixels terá do lado direito do navegador*/
+    right: 4px;
+ 
+    /* Cor da Texto */
+    color:#FFFFFF;
+ 
+    /* Aparecera na frente de tudo*/
+    z-index:100;
+ 
+    /* Cor de fundo da div*/
+    /* background-color:#FFFFFF; */
+ 
+    /* Alinhamento do texto */
+    text-align:center;
+ 
+    /* Texto em negrito*/
+    font-weight:bold;
+}
